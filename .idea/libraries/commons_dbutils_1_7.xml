@@ -7,6 +7,7 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/lombok-1.18.24.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
