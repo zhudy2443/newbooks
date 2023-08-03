@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>会员登录页面</title>
-
-<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+	<base href="http://localhost:8080/newbooks/">
+<link type="text/css" rel="stylesheet" href="static/css/style.css" >
 </head>
 <body>
 		<div id="login_header">
-			<img class="logo_img" alt="" src="../../static/img/logo.gif" width="230px" height="80px">
+			<img class="logo_img" alt="" src="static/img/logo.gif" width="230px" height="80px">
 		</div>
 		
 			<div class="login_banner">
@@ -29,7 +29,7 @@
 								<span class="errorMsg">请输入用户名和密码</span>
 							</div>
 							<div class="form">
-								<form action="login_success.html" method="post">
+								<form action="LoginServlet" method="post">
 									<label>用户名称：</label>
 									<input class="itxt" type="text" placeholder="请输入用户名" autocomplete="off" tabindex="1" name="username" />
 									<br />
