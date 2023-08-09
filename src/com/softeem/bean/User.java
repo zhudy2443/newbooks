@@ -2,6 +2,7 @@ package com.softeem.bean;
 
 public class User {
     private Integer id;
+
     private String username;
     private String password;
     private String email;
@@ -18,6 +19,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return id
      */
     public Integer getId() {
@@ -26,6 +28,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param id
      */
     public void setId(Integer id) {
@@ -34,6 +37,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return username
      */
     public String getUsername() {
@@ -42,6 +46,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param username
      */
     public void setUsername(String username) {
@@ -50,6 +55,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return password
      */
     public String getPassword() {
@@ -58,6 +64,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param password
      */
     public void setPassword(String password) {
@@ -66,6 +73,7 @@ public class User {
 
     /**
      * 获取
+     *
      * @return email
      */
     public String getEmail() {
@@ -74,6 +82,7 @@ public class User {
 
     /**
      * 设置
+     *
      * @param email
      */
     public void setEmail(String email) {

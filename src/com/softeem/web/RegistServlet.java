@@ -27,17 +27,17 @@ public class RegistServlet extends HttpServlet {
             if (userService.existsUsername(username)) {
                 System.out.println("用户名[" + username + "]已存在!");
                 // 跳回注册页面
-                req.getRequestDispatcher("/pages/user/regist.html").forward(req, resp);
+                req.getRequestDispatcher("/pages/user/regist.jsp").forward(req, resp);
             } else {
                 // 可用
                 // 调用 Sservice 保存到数据库
                 userService.registUser(new User(null, username, password, email));
                 // 跳到注册成功页面regist_success.html
-                req.getRequestDispatcher("/pages/user/regist_success.html").forward(req, resp);
+                req.getRequestDispatcher("/pages/user/regist_success.jsp").forward(req, resp);
             }
         } else {
             System.out.println("验证码[" + code + "]错误");
-            req.getRequestDispatcher("/pages/user/regist.html").forward(req, resp);
+            req.getRequestDispatcher("/pages/user/regist.jsp").forward(req, resp);
         }
     }
 }
